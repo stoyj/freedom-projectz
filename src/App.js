@@ -63,10 +63,16 @@
 // }
 
 import React from "react";
-import Image from "./elements/Image/Image";
-import Link from "./elements/Link/Link";
-import List from "./elements/List/List";
-import Title from "./elements/Title/Title";
+import Image from "./components/elements/Image/Image";
+import Link from "./components/elements/Link/Link";
+import List from "./components/elements/List/List";
+import Title from "./components/elements/Title/Title";
+import Text from "./components/elements/Text/Text";
+import Button from "./components/elements/Button/Button";
+import Checkbox from "./components/elements/Checkbox/Checkbox";
+import Icon from "./components/elements/Icon/Icon";
+import Input from "./components/elements/Input/Input";
+import Radio from "./components/elements/Radio/Radio";
 
 function App() {
   return (
@@ -89,6 +95,12 @@ function App() {
           "Videos",
         ]}
       />
+      <Text />
+      <Button />
+      <Checkbox />
+      <Icon />
+      <Input />
+      <Radio />
       {/* <Button /> */}
     </div>
   );
