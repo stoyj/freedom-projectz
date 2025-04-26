@@ -37,7 +37,6 @@ function App() {
       <Icon />
       <Input />
       <Radio />
-      {/* <Button /> */}
     </div>
   );
 }
